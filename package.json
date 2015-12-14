@@ -1,0 +1,53 @@
+{
+  "name": "angular",
+  "version": "0.1.0",
+  "description": "Angular seed",
+  "main": "src/app.js",
+  "private": true,
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/16code/gulp-angularjs-seed.git"
+  },
+  "scripts": {
+    "wiredep": "wiredep --verbose --bowerJson bower.json -s source/index.html"
+  },
+  "devDependencies": {
+    "fs": "0.0.2",
+    "gulp": "^3.9.0",
+    "gulp-autoprefixer": "^3.1.0",
+    "gulp-concat": "^2.6.0",
+    "gulp-connect": "^2.2.0",
+    "gulp-filter": "^3.0.1",
+    "gulp-if": "^2.0.0",
+    "gulp-imagemin": "^2.4.0",
+    "gulp-inject": "^3.0.0",
+    "gulp-jshint": "^2.0.0",
+    "gulp-less": "^3.0.5",
+    "gulp-load-plugins": "^1.1.0",
+    "gulp-minify-css": "^1.2.2",
+    "gulp-minify-html": "^1.0.4",
+    "gulp-ng-annotate": "^1.1.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-replace-task": "^0.11.0",
+    "gulp-rev": "^6.0.1",
+    "gulp-rev-replace": "^0.4.2",
+    "gulp-rimraf": "^0.2.0",
+    "gulp-size": "^2.0.0",
+    "gulp-sourcemaps": "^1.6.0",
+    "gulp-strip-debug": "^1.1.0",
+    "gulp-task-listing": "^1.0.1",
+    "gulp-uglify": "^1.5.1",
+    "gulp-useref": "^2.1.0",
+    "gulp-util": "^3.0.7",
+    "gulp-watch-less": "^1.0.1",
+    "imagemin-jpegtran": "^4.3.2",
+    "imagemin-pngquant": "^4.2.0",
+    "jshint": "^2.8.0",
+    "jshint-stylish": "^2.1.0",
+    "main-bower-files": "^2.9.0",
+    "wiredep": "^2.2.2",
+    "yargs": "^3.30.0"
+  },
+  "author": "Liuxin",
+  "license": "MIT"
+}
